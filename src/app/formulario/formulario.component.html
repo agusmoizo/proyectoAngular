@@ -1,0 +1,10 @@
+<form [formGroup]="miFormulario" (ngSubmit)="enviarFormulario()">
+    <label for="campo1">Campo 1:</label>
+    <input id="campo1" formControlName="campo1" type="text">
+    
+    <label for="campo2">Campo 2:</label>
+    <input id="campo2" formControlName="campo2" type="text">
+    
+    <button type="submit">Enviar</button>
+  </form>
+  
